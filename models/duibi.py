@@ -261,6 +261,6 @@ class Dui1(nn.Module):
 
 
 if __name__ == '__main__':
-    model = MyModel_2()
+    model = Dui1()
     input1 = torch.randn(8, 12, 1000)
     out = model(input1)
